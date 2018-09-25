@@ -13,6 +13,7 @@ class Home extends Component {
         </header>
         <p className="App-intro">
           <code>This this the Home page</code>
+          <a onClick={()=>this.props.history.push('/')}>Click Here for the other page</a>
         </p>
       </div>
     );
