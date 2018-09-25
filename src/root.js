@@ -1,5 +1,5 @@
 import React from 'react';
-import App from '../App.js'
+import App from './App.js'
 import { Provider } from 'react-redux'
 import { Route, Switch, Redirect } from 'react-router'
 import PropTypes from 'prop-types'
