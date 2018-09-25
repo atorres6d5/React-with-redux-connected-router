@@ -12,6 +12,7 @@ class App extends Component {
         </header>
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
+          click <a onClick={this.props.history.push('/home')}>Here</a> to get to the home page
         </p>
       </div>
     );

@@ -12,7 +12,7 @@ class Home extends Component {
           <h1 className="App-title">Welcome to React</h1>
         </header>
         <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
+          <code>This this the Home page</code>
         </p>
       </div>
     );

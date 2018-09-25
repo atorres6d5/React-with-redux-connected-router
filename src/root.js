@@ -1,5 +1,6 @@
 import React from 'react';
 import App from './App.js'
+import Home from './components/home.js'
 import { Provider } from 'react-redux'
 import { Route, Switch, Redirect } from 'react-router'
 import PropTypes from 'prop-types'
@@ -26,6 +27,8 @@ const Root = ({ store, history }) => {
       <ConnectedRouter history={history}>
         <div>
           <Switch>
+            <Route exact path="/home" component={Home}/>
+            {/* {every route must go before path "/", this path is the catch all path } */}
             <Route path="/" component={App} />
           </Switch>
         </div>
